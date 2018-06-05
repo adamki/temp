@@ -1,0 +1,19 @@
+.card {
+  text-align: center;
+
+  margin: 1rem;
+  border: 0.1rem solid lightgray;
+  border-radius: 0.33rem;
+}
+
+.card__header {
+  overflow-wrap: break-word;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2rem 4rem;
+  border-bottom: 0.06rem solid lightgray;
+}
+
+.card__body {
+  padding: 2rem 3rem;
+}

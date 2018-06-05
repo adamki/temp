@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-weight: normal;
+  font-family: sans-serif;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+}
+
+b, strong {
+  font-weight: 700;
+}
+

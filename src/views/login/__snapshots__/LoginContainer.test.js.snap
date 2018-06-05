@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: LoginContainer renders without crashing 1`] = `
+<div
+  className="login"
+>
+  <section
+    className="login__form"
+  >
+    <img
+      alt="company-logo"
+      className="login__logo"
+      src="logo.svg"
+    />
+    <article
+      className="card"
+      data-test="login-card"
+    >
+      <header
+        className="card__header"
+      >
+        Welcome! Sign in With your Jobcoin Address
+      </header>
+      <section
+        className="card__body"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <label>
+            <h5>
+              Jobcoin Address:
+            </h5>
+          </label>
+          <input
+            data-test="login-addressee"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <input
+            type="submit"
+            value="Submit"
+          />
+        </form>
+      </section>
+    </article>
+  </section>
+</div>
+`;

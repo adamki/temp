@@ -1,0 +1,25 @@
+header {
+  grid-area: header;
+}
+
+.header {
+  border-bottom: 0.06rem solid lightgray;
+}
+
+.header div,
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.header__logo {
+  width: 5rem;
+  height: 3rem;
+  margin: 0 1rem;
+}
+
+.header__sign-out {
+  margin: 0 1rem;
+}
